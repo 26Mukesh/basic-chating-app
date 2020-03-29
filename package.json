@@ -1,0 +1,16 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "this is simple chatting app using socket io and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Mukesh",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.5",
+    "socket.io": "^2.3.0"
+  }
+}
