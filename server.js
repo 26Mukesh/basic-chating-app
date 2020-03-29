@@ -1,6 +1,6 @@
 var mongo = require('mongodb').MongoClient;
 const client = require('socket.io').listen(4000).sockets
-var mongoURI ="mongodb+srv://mukesh:3unhleGDfRLBlJhn@cluster0-05i2g.mongodb.net/test?retryWrites=true&w=majority/chatingapp"
+var mongoURI ="mongodb+srv://mukesh:<password>@cluster0-05i2g.mongodb.net/test?retryWrites=true&w=majority/chatingapp"
 
 mongo.connect(mongoURI, function(err, db) {
     if (err) throw err;
